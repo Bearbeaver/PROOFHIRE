@@ -1,0 +1,53 @@
+{
+  "selected": "gradient_boosting",
+  "version": "gradient_boosting-v1",
+  "trained_on": "synthetic placeholder (NOT human-labelled)",
+  "samples": 1800,
+  "cv_folds": 3,
+  "cv_results": {
+    "ridge_baseline": {
+      "mae": 0.1884147068069262,
+      "rmse": 0.23780084377464436,
+      "r2": 0.9829096356781929,
+      "per_dimension_r2": {
+        "relevance": 0.9242229588759207,
+        "technical_quality": 0.9732151741693953,
+        "complexity": 0.9372710786879637,
+        "code_quality": 0.9822059840870933,
+        "documentation": 0.9476396269564782,
+        "testing": 0.9832540026153719,
+        "impact": 0.8945637216158796
+      }
+    },
+    "random_forest": {
+      "mae": 0.3173708712617715,
+      "rmse": 0.40738457331732286,
+      "r2": 0.9498427523446118,
+      "per_dimension_r2": {
+        "relevance": 0.6860483475844941,
+        "technical_quality": 0.8854580455744014,
+        "complexity": 0.8868264617176793,
+        "code_quality": 0.9349629922914175,
+        "documentation": 0.8084089568889987,
+        "testing": 0.965967658483288,
+        "impact": 0.4196417060208454
+      }
+    },
+    "gradient_boosting": {
+      "mae": 0.1822634012915537,
+      "rmse": 0.228905012225098,
+      "r2": 0.9841643774000426,
+      "per_dimension_r2": {
+        "relevance": 0.9361130260362507,
+        "technical_quality": 0.9724047061522508,
+        "complexity": 0.957618763440159,
+        "code_quality": 0.9803255754208318,
+        "documentation": 0.9694409698238706,
+        "testing": 0.9848348857011509,
+        "impact": 0.8947935099620797
+      }
+    }
+  },
+  "seconds": 34.2,
+  "note": "Metrics measure agreement with the training labels. With synthetic labels they say nothing about agreement with human evaluators."
+}
