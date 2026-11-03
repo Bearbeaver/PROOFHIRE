@@ -2,7 +2,7 @@
 
 Skills-based recruitment: candidates submit verifiable evidence (GitHub repositories, portfolios, certificates), an
 AI engine (the **ProofScore Engine**) scores it out of 10 across seven dimensions with annotated feedback, and recruiters
-search and review candidates by evidence. Built from the CSC 312 analysis and design documents.
+search and review candidates by evidence. Built from By Syntax Squad
 
 ## Quick start
 
